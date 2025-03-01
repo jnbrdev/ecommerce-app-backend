@@ -21,7 +21,7 @@ app.use(express.urlencoded({extended:true}));
 const corsOptions = {
     origin: [`http://localhost:8000`, 
         'http://localhost:3000', 
-        'http://zuitt-bootcamp-prod-461-7670-delavictoria.s3-website.us-east-1.amazonaws.com', 
+        'https://ecommerce-app-backend-373m.onrender.com', 
         'http://zuitt-bootcamp-prod-461-7836-rebuta.s3-website.us-east-1.amazonaws.com'],
     credentials: true, 
     optionsSuccessStatus:200 
