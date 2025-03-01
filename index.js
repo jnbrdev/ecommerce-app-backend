@@ -32,12 +32,12 @@ app.use(cors(corsOptions));
 mongoose.connect(process.env.MONGODB_STRING);
 mongoose.connection.once('open',()=>console.log("Now connected to MongoDB Atlas"));
 
-app.use('/b7/uploads', express.static('uploads'));
+app.use('/uploads', express.static('uploads'));
 //[Backend Routes]
-app.use("/b7/users", userRoutes);
-app.use("/b7/products", productRoutes);
-app.use("/b7/orders", orderRoutes);
-app.use("/b7/cart", cartRoutes);
+app.use("/users", userRoutes);
+app.use("/products", productRoutes);
+app.use("/orders", orderRoutes);
+app.use("/cart", cartRoutes);
 
 
 
