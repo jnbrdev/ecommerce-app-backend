@@ -5,8 +5,6 @@
 This API is built using Express.js and Node.js, designed to handle user authentication, product management, order processing, and cart functionality. Authentication is implemented using JSON Web Token (JWT) to secure endpoints, ensuring that only authorized users can access protected resources. The API provides features for user registration, login, product creation, order checkout, and cart management, making it suitable for an e-commerce platform. The database used for storing data is MongoDB.
 
 Host: Render
-Url: https://ecommerce-app-backend-373m.onrender.com
-
 
 ## Authentication Legend
 
